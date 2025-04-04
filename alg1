@@ -12,4 +12,5 @@ def count_vertices(edges):
 
 execution_time1 = timeit.timeit(lambda: count_vertices(edges), number = 1000)
 print(f"time for end : {execution_time1:.6f} sec")
+print (f"middle time: { execution_time1 / number :.9f} sec")
 
